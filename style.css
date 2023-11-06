@@ -92,6 +92,11 @@ p {
   right: -30px;
 }
 
+.cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
 .botao {
   background: #e21;
   color: #fff;
@@ -142,4 +147,43 @@ p {
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
+}
+
+@media (max-width: 950px) {
+  .conteudo-2 {
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .header {
+    gap: 30px;
+  }
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    font-size: 3rem;
+  }
+  .introducao {
+    text-align: left;
+    justify-items: start;
+  }
+  .introducao::before {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 2rem;
+  }
 }
