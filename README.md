@@ -1,2 +1,6 @@
 # Projeto1-Refatorado
-Adicionando novos estilos ao Projeto1
+## Refazendo o projeto1, adcionando algumas estilos e funcionalidades😃
+## Tornando o site responsivo!⚡
+
+Neste projeto foram exercitados conceitos de responsividade utlizando media queries
+Projeto Finalizado! ✔
